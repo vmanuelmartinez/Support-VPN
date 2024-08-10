@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* body {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: none;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 37px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    margin-right: 117px;
+    gap: 10px;
+}
+
+.logo-container h1{
+    font-weight: 100;
+}
+
+
+nav {
+    display: flex;
+    margin-right: 153px;
+    gap: 37px
+}
+
+nav a {
+    color: #4F5665;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.access-container {
+    display: flex;
+    gap: 30px;
+    font-size: 16px;
+}
+
+.acess-container :last-child{
+    border-radius: 50px;
+    border: 1px solid #F53855;
+    width: 150px;
+    height: 45px;
+    color: #F53855;
+}
+
+.acess-container :last-child:hover{
+background-color: #F53855;
+transition: 0.5s;
+color: #ffffff;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+    margin-left: 15px;
+}
