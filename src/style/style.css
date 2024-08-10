@@ -23,7 +23,7 @@ header {
     gap: 10px;
 }
 
-.logo-container h1{
+.logo-container h1 {
     font-weight: 100;
 }
 
@@ -46,7 +46,7 @@ nav a {
     font-size: 16px;
 }
 
-.acess-container :last-child{
+.acess-container :last-child {
     border-radius: 50px;
     border: 1px solid #F53855;
     width: 150px;
@@ -54,14 +54,56 @@ nav a {
     color: #F53855;
 }
 
-.acess-container :last-child:hover{
-background-color: #F53855;
-transition: 0.5s;
-color: #ffffff;
+.acess-container :last-child:hover {
+    background-color: #F53855;
+    transition: 0.5s;
+    color: #ffffff;
 }
 
-button{
+button {
     background-color: transparent;
     border: none;
     margin-left: 15px;
+}
+
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 59px;
+    gap: 41px;
+}
+
+.section-content{
+    width: 555px;
+}
+
+.section-content h2{
+    font-size: 50px;
+    font-weight: 500px;
+    margin-top: 28px;
+}
+
+.section-content p {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.section-content button{
+    width: 250px;
+    height: 70px;
+    background-color: #F53855;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 50px;
+    transition: 0.5s;
+    box-shadow: 0px 0px 0px  #fa5353b6;
+}
+
+
+
+.section-content button:hover{
+    background-color: #ed8b0c;
+    transition: 0.5s;
 }
